@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 /* 
 body {
     background: #bba694;
@@ -119,6 +120,21 @@ header .navbar li a:hover {
 
 .contenido .imgBox img {
     width: 480px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 /* circulo  */
@@ -146,7 +162,7 @@ header .navbar li a:hover {
 }
 
 .copyRight p {
-    color: #fff;
+    color: #000;
 }
 
 /* redes sociales  */
@@ -167,17 +183,17 @@ header .navbar li a:hover {
 }
 
 .redes li a {
-    color: #ffffd5;
-    font-size: 1.5rem;
+    color: #000;
+    font-size: 2rem;
     transition: .3s;
 }
 
-.redes li a:hover{
+.redes li a:hover {
     color: #7a551c;
 }
 
 /* Section 2 */
-.section-2{
+.section-2 {
     background: #E5C1FF;
     position: relative;
     width: 100%;
@@ -186,10 +202,12 @@ header .navbar li a:hover {
     justify-content: center;
     align-items: center;
     padding: 100px;
+
 }
 
+
 /* Section 3 */
-.section-3{
+.section-3 {
     background: #ABA774;
     position: relative;
     width: 100%;
@@ -201,7 +219,7 @@ header .navbar li a:hover {
 }
 
 /* Section 4 */
-.section-4{
+.section-4 {
     background: #5EA5BA;
     position: relative;
     width: 100%;
@@ -211,8 +229,9 @@ header .navbar li a:hover {
     align-items: center;
     padding: 100px;
 }
+
 /* Section 5 */
-.section-5{
+.section-5 {
     background: #F2D9BA;
     position: relative;
     width: 100%;
@@ -222,8 +241,9 @@ header .navbar li a:hover {
     align-items: center;
     padding: 100px;
 }
+
 /* Section 6 */
-.section-6{
+.section-6 {
     background: #B0953A;
     position: relative;
     width: 100%;
@@ -235,7 +255,7 @@ header .navbar li a:hover {
 }
 
 /* Section 7 */
-.section-7{
+.section-7 {
     background: #C2C0A6;
     position: relative;
     width: 100%;
@@ -245,7 +265,3 @@ header .navbar li a:hover {
     align-items: center;
     padding: 100px;
 }
-
-
-
-
