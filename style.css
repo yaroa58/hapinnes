@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* 
+body {
+    background: #bba694;
+} */
+
+.section-1 {
+    background: #bba694;
+    position: relative;
+    width: 100%;
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+/* header */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #ffffd5;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #9b7239;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+header .navbar {
+    position: relative;
+    display: flex;
+}
+
+header .navbar li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a {
+    text-decoration: none;
+    color: #7a551c;
+    font-weight: 600;
+    padding: 10px;
+    transition: .3s;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+header .navbar li a:hover {
+    color: #ffffd5;
+}
+
+/* contenido */
+.contenido {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.contenido .tituloBox {
+    position: relative;
+    min-width: 600px;
+}
+
+.contenido .tituloBox h2 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    color: #7a551c;
+    line-height: 1.2;
+}
+
+.contenido .tituloBox h2 span {
+    background: #9b7239;
+    color: #ffffd5;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+.contenido .tituloBox p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #7a551c;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contenido .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: -50px;
+    margin-top: -50px;
+}
+
+.contenido .imgBox img {
+    width: 480px;
+}
+
+/* circulo  */
+.circulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #9b7239;
+    clip-path: circle(650px at right 750px);
+    width: 100%;
+    height: 100%;
+}
+
+/* copyright  */
+
+.copyRight {
+    position: absolute;
+    bottom: 0;
+    left: 800px;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyRight p {
+    color: #fff;
+}
+
+/* redes sociales  */
+.redes {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+
+.redes li {
+
+    padding: 10px;
+}
+
+.redes li a {
+    color: #ffffd5;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+
+.redes li a:hover{
+    color: #7a551c;
+}
+
+/* Section 2 */
+.section-2{
+    background: #E5C1FF;
+    position: relative;
+    width: 100%;
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+/* Section 3 */
+.section-3{
+    background: #ABA774;
+    position: relative;
+    width: 100%;
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+/* Section 4 */
+.section-4{
+    background: #5EA5BA;
+    position: relative;
+    width: 100%;
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+/* Section 5 */
+.section-5{
+    background: #F2D9BA;
+    position: relative;
+    width: 100%;
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+/* Section 6 */
+.section-6{
+    background: #B0953A;
+    position: relative;
+    width: 100%;
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+/* Section 7 */
+.section-7{
+    background: #C2C0A6;
+    position: relative;
+    width: 100%;
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+
+
+
