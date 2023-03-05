@@ -200,7 +200,7 @@ header .navbar li a:hover {
     min-height: 100hv;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     padding: 100px;
 
 }
@@ -264,4 +264,44 @@ header .navbar li a:hover {
     justify-content: center;
     align-items: center;
     padding: 100px;
+}
+
+/* media queries */
+@media(max-width:768px) {
+
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4,
+    .section-5,
+    .section-6,
+    .section-7 {
+        width: fit-content;
+    }
+
+    .contenido .tituloBox h2 {
+        font-size: 2.5rem;
+        align-items: center;
+    }
+
+    .contenido .tituloBox p {
+        font-size: 1rem;
+        align-items: center;
+    }
+
+    .contenido .imgBox {
+        width: auto;
+    }
+
+    .contenido .imgBox img {
+        display: none;
+    }
+
+    .copyRight {
+        left: 30px;
+    }
+
+    .circulo {
+        display: none;
+    }
 }
